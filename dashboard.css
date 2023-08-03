@@ -62,7 +62,6 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
     background: hsl(228, 28%, 20%);
     color: hsl(0, 0%, 100%);
     border-radius: 8px;
