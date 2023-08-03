@@ -1,0 +1,119 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: hsl(230, 17%, 14%);
+}
+.dashboard-container{
+    margin: 2% 10%;
+    background: hsl(232, 26%, 17%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 9px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 5%;
+}
+.darkmode{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.circle{
+    height: 16px;
+    width:16px;
+    border-radius: 50%;
+    background: hsl(230, 17%, 14%) ;
+}
+.darkmode button{
+    border: none;
+    background: hsl(163, 72%, 41%);
+    height: 20px;
+    width: 40px;
+    border-radius: 9px;
+}
+.random-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto 5%;
+    gap: 10px;
+}
+.icon-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon-name img {
+    width: 30px;
+    height: 25px;
+    /* object-fit: cover; */
+
+}
+.today{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.today img{
+    width: 10px;
+    height: 10px;
+}
+.social-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    background: hsl(228, 28%, 20%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+}
+.youtube{
+    border-top: 6px solid rgb(226, 14, 14);
+}
+.facebook{
+    border-top: 6px solid rgb(37, 37, 233);
+}
+.insta{
+ border-top: 4px solid orange;
+}
+.twitter{
+    border-top: 6px solid rgb(9, 9, 253);
+}
+.overview{
+    margin: auto 5%;
+}
+.overview-card{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    background: hsl(228, 28%, 20%);
+    border-radius: 8px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 4%;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 4%;
+}
+.stats{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.daily-overviews{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+.top img{
+    width: 30px;
+    height: 30px;
+}
+.bottom h3{
+    font-size: 30px;
+}
