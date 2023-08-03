@@ -117,3 +117,27 @@ header{
 .bottom h3{
     font-size: 30px;
 }
+@media (max-width: 375px) {
+    .random-cards{
+        display: grid;
+        grid-template-columns:1fr;  
+        margin: auto 5%;
+        gap: 4px;
+    }
+    .daily-overviews{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        margin: auto 5%;
+    }
+    .darkmode{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid azure;
+    }
+}
