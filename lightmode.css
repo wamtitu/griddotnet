@@ -1,12 +1,12 @@
 body{
     margin: 0%;
     padding: 0%;
-    background: hsl(230, 17%, 14%);
+    background: hsl(0, 0%, 100%);
 }
 .dashboard-container{
     margin: 2% 10%;
-    background: hsl(232, 26%, 17%);
-    color: hsl(0, 0%, 100%);
+    background: hsl(225, 100%, 98%);
+    color: hsl(230, 17%, 14%);
     border-radius: 9px;
 }
 header{
@@ -27,7 +27,7 @@ header{
 }
 .darkmode button{
     border: none;
-    background: hsl(163, 72%, 41%);
+    background: hsl(228, 22%, 73%);
     height: 20px;
     width: 40px;
     border-radius: 9px;
@@ -62,9 +62,8 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
-    background: hsl(228, 28%, 20%);
-    color: hsl(0, 0%, 100%);
+    background: hsl(227, 30%, 83%);
+    color: hsl(230, 17%, 14%);
     border-radius: 8px;
 }
 .youtube{
@@ -86,7 +85,7 @@ header{
     display: flex;
     flex-direction: column;
     margin: 2%;
-    background: hsl(228, 28%, 20%);
+    background: hsl(227, 30%, 83%);
     border-radius: 8px;
 }
 .top{
