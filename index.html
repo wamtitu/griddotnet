@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <!-- <link rel="stylesheet" href="./lightmode.css"> -->
-    <link rel="stylesheet" href="./dashboard.css">
+    <link id="style1" rel="stylesheet" href="./lightmode.css">
+    <link id="style2" rel="stylesheet" href="./dashboard.css">
 </head>
 <body>
     <div class="dashboard-container">
@@ -16,7 +16,7 @@
             </div>
             <div class="darkmode">
                 <p>Dark Mode</p>
-                <button><div class="circle"></div></button>
+                <button id="switch"><div class="circle"></div></button>
             </div>
         </header>
         <div class="random-cards">
@@ -179,6 +179,22 @@
             </div>
         </div>
     </div>
+    <script>
+        const switchButton = document.getElementById('switch');
+        const style1 = document.getElementById('style1');
+        const style2 = document.getElementById('style2');
+      
+        switchButton.addEventListener('click', () => {
+            console.log('clicked')
+          if (style1.disabled) {
+            style1.disabled = false;
+            style2.disabled = true;
+          } else {
+            style1.disabled = true;
+            style2.disabled = false;
+          }
+        });
+      </script>
     
 </body>
 </html>
