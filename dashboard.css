@@ -66,6 +66,7 @@ header{
     color: hsl(0, 0%, 100%);
     border-radius: 8px;
 }
+
 .social-card:hover{
     background: hsl(229, 34%, 15%);
     cursor: pointer;
@@ -96,6 +97,9 @@ header{
     background: hsl(229, 34%, 15%);
     cursor: pointer;
 }
+/* .overview-card h3{
+    padding: 0%;
+} */
 .top{
     display: flex;
     justify-content: space-between;
