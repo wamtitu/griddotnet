@@ -66,6 +66,10 @@ header{
     color: hsl(230, 17%, 14%);
     border-radius: 8px;
 }
+.social-card:hover{
+    background: hsl(228, 25%, 69%);
+    cursor: pointer;
+}
 .youtube{
     border-top: 6px solid rgb(226, 14, 14);
 }
@@ -87,6 +91,10 @@ header{
     margin: 2%;
     background: hsl(227, 30%, 83%);
     border-radius: 8px;
+}
+.overview-card:hover{
+    background: hsl(228, 25%, 69%);
+    cursor: pointer;
 }
 .top{
     display: flex;
